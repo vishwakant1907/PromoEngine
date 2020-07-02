@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PromotionEngine.Interface
+namespace PromotionEngine.PromoCalculation.Interface
 {
-  public  interface IPromotion
+   public interface IProductD
     {
-
-        int ApplyPromo(int A,int B,int C,int D);
-       
-
+        int CalculateAmoutForD(int Quantity);
     }
 }
