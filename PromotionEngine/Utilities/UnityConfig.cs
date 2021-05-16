@@ -8,6 +8,10 @@ namespace PromotionEngine.Utilities
 {
     static class UnityConfig
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static UnityContainer Register()
         {
             var container = new UnityContainer();
